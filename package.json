@@ -5,12 +5,13 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
-    "nedb": "^1.8.0"
+    "nedb": "^1.8.0",
+    "nodemon": "^2.0.4"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "server.js"
+    "start": "nodemon server.js"
   },
   "author": "Prasad",
   "license": "ISC"
